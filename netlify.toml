@@ -1,14 +1,10 @@
+
 [build]
 command = "pip install -r requirements.txt"
 publish = "."
 
 [build.environment]
 PYTHON_VERSION = "3.11"
-
-[[redirects]]
-from = "/*"
-to = "/index.html"
-status = 200
 
 [dev]
 framework = "streamlit"
