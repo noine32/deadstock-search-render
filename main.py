@@ -125,4 +125,5 @@ def main():
                 st.error(f"エラーが発生しました: {str(e)}")
 
 if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 10000))
     main()
